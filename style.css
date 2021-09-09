@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+* {
+  margin: 0;
+  padding : 0;
+  font-family: "Lato";
+  text-align: justify;
+  text-decoration-line: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("pintor.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pintor {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:  row;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 500px;
+  min-width: 300px;
+  max-width: 100%;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-image: linear-gradient(45deg, black, gray);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.3);
+  min-height: 270px;
+  min-width: 300px;
+  max-width: 100%;
+  overflow-y: hidden;
+  transition: all 1s ease;
+
+
+}
+
+.card:hover {
+  min-height: 450px;
+}
+
+.topocolorido {
+  position: relative;
+  min-height: 135px;
+  background-image: linear-gradient(35deg, rgba(255,17,0,1), rgba(202,01,42,1));
+  border-radius: 20px;
+  min-width: 300px;
+  max-width: 300px;
+  padding: 0px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.imgPintor {
+  position: absolute;
+  min-width: 200px;
+  max-width: 200px;
+  border: 5px solid white;
+  border-radius: 100%;
+  margin-top: 30px;
+}
+
+.txtPintor {
+  position: absolute;
+  min-height: 100px;
+  max-width: 300px;
+  margin-top: 280px;
+  color: white;
+  width: 250px;
+  overflow-y: hidden;
+}
+
+.titulo {
+  color: black;
+  text-align: center;
+}
+
+.titulo2 {
+  color: white;
+  text-align: center;
+}
+
+.contatos  {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+  padding-bottom: 10px;
+  width: 100%;
+  bottom: 30px;
+
+}
+
+.icon {
+  background-image: linear-gradient(45deg, black, gray);
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+/**/
