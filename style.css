@@ -16,14 +16,15 @@ body {
   background-size: cover;
 }
 .pintor {
-  margin-top: 10px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   flex-direction:  row;
   justify-content: space-around;
   align-items: center;
-  min-height: 500px;
+  align-content: flex-start;
+  top : 20px;
+  min-height: 420px;
   min-width: 300px;
   max-width: 100%;
 }
@@ -93,11 +94,12 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  align-content: flex-start;
   color: black;
   text-align: center;
-  padding-bottom: 10px;
+
   width: 100%;
-  bottom: 0px;
+
 
 }
 
